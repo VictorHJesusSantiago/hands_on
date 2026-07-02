@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Segfy.Policies.Application\Segfy.Policies.Application.csproj" />
+    <ProjectReference Include="..\Segfy.Policies.Infrastructure\Segfy.Policies.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
